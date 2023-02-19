@@ -9,3 +9,7 @@
 require example.com/greetings v0.0.0-00010101000000-000000000000
 ```
 - The number following the module path is a **pseudo-version number** -- a generated number used in place of a semantic version number (which the module doesn't have yet)
+
+#### Compile and install the application
+- The `go build` command compiles the packages, along with their dependencies, but it doesn't install the results
+- The `go install` command compiles and installs the packages

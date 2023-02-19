@@ -4,7 +4,6 @@ import (
     "fmt"
     "log"
     "example.com/greetings"
-    "testing"
 )
 
 func main() {
