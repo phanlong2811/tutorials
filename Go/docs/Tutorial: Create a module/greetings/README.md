@@ -17,3 +17,8 @@ message = fmt.Sprintf("Hi, %v. Welcome!", name)
 
 #### Return and handle an error
 - `nil` (meaning no error)
+
+
+#### Return a random greeting
+- A slice is like an array, except that its size changes dynamically as you add and remove items
+- Go executes `init` functions automatically at program startup, after global variables have been initialized
