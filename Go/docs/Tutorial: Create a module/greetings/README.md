@@ -14,3 +14,6 @@ var message string
 message = fmt.Sprintf("Hi, %v. Welcome!", name)
 ```
 - The first argument is a **format string**, and Sprintf substitutes the name parameter's value for the `%v` format verb
+
+#### Return and handle an error
+- `nil` (meaning no error)
