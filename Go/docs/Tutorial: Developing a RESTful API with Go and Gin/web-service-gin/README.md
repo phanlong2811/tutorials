@@ -1,0 +1,1 @@
+- `gin.Context` is the most important part of Gin. It carries **request details**, **validates** and **serializes JSON**, and more. (Despite the similar name, this is different from Go’s built-in context package.)
